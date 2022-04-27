@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="habcerga1yandexSmarterASPFree" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="habcerga1yandexSmarterASPFree">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/HouseRentApi.sln" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/.dockerignore" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Controllers/AdvertRentController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Controllers/AuthenticationController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Controllers/RegistrationController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Controllers/RentHouseController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Controllers/TestController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Controllers/WeatherForecastController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/DbContext/AppDbContext.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Dockerfile" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Fabrics/AbstractAdvertFactory.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Fabrics/AbstractRealEstateFactory.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Fabrics/AdvertFactory.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Fabrics/RealEstateFactory.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/HouseRentApi.csproj" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Migrations/20220312161622_Initial.Designer.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Migrations/20220312161622_Initial.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Migrations/20220312171951_Initial2.Designer.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Migrations/20220312171951_Initial2.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Migrations/20220313135406_Initial3.Designer.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Migrations/20220313135406_Initial3.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Migrations/20220313143257_Initial4.Designer.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Migrations/20220313143257_Initial4.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Migrations/AppDbContextModelSnapshot.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Adverts/EstateType.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Adverts/IAdvert.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Adverts/OrderType.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Adverts/RentAdvert.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Adverts/RentType.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Adverts/SellAdvert.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/DTO/ApartmentDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/DTO/AuthenticationRequestDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/DTO/GarageDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/DTO/HouseDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/DTO/LocationRequestDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/DTO/RegistrationDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/DTO/RentAdvertDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/DTO/SellAdvertDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/DTO/TownHouseDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/IEntity.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Images/ImageLink.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Locations/ILocation.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/RealEstate/Apartment.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/RealEstate/CommercialPremises.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/RealEstate/Garage.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/RealEstate/Ground.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/RealEstate/House.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/RealEstate/IRealEstate.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/RealEstate/Room.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/RealEstate/TownHouse.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/RealEstate/Utilits/IAppliance.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Repository/BaseRepository.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Repository/IRealEstateRepository.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Repository/IRepository.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Repository/IUserRepository.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Repository/RealRealEstateRepository.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Repository/UserRepository.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Models/Users/User.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Program.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Properties/launchSettings.json" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Sevices/Hash.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/Sevices/TokenGenerator.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/WeatherForecast.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/appsettings.Development.json" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/appsettings.json" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/obj/Debug/net6.0/HouseRentApi.AssemblyInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/obj/Debug/net6.0/HouseRentApi.GeneratedMSBuildEditorConfig.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/HouseRentApi/obj/Debug/net6.0/HouseRentApi.GlobalUsings.g.cs" web="/" />
+            <mapping local="/usr/local/share/dotnet/sdk/6.0.101/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_6_default.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

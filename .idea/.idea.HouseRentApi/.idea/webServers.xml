@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="77cd426c-ed60-4f7d-ace6-c4d2edbecb22" name="habcerga1yandexSmarterASPFree" url="http://155.254.244.38">
+        <fileTransfer rootFolder="/www.had.somee.com" host="155.254.244.38" port="21" />
+      </webServer>
+    </option>
+  </component>
+</project>

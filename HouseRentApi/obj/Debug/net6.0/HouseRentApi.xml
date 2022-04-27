@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HouseRentApi</name>
+    </assembly>
+    <members>
+        <member name="M:HouseRentApi.Controllers.AdvertController.Post(HouseRentApi.Models.DTO.Request.RentAdvertRequestDTO,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new Rent Advert.
+            </summary>
+            <param name="requestAdvert">RentAdvertRequestDTO model</param>
+            <param name="cancellationToken">CancellationToken</param>
+            <returns></returns>
+            <remarks>
+             POST /RentAdvertRequestDTO
+              
+            </remarks>
+        </member>
+        <member name="M:HouseRentApi.Controllers.AdvertController.Post(HouseRentApi.Models.DTO.Request.SellAdvertRequestDto,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new Sell Advert.
+            </summary>
+            <param name="requestAdvert">SellAdvertRequestDTO model</param>
+            <param name="cancellationToken">CancellationToken</param>
+            <returns></returns>
+            <remarks>
+             POST /SellAdvertRequestDTO
+              
+            </remarks>
+        </member>
+        <member name="M:HouseRentApi.Controllers.RegistrationController.Post(HouseRentApi.Models.DTO.Request.RegistrationRequestDTO,System.Threading.CancellationToken)">
+             <summary>
+             Creates a new user.
+             </summary>
+             <param name="user">User model RegistrationDTO, Role types is Admin,Client,Agence,Owner</param>
+             <returns>A newly created new User</returns>
+             <remarks>
+             Sample request:
+            
+                 POST /Registration
+                 {
+                    "FirstName" : "Ivan",
+                    "LastName" : "Ivanow",
+                    "Email" : "client1@mail.com",
+                    "PhoneNumber" : "89138473891",
+                    "Password" : "5uckYou!",
+                    "Role" : "Client"
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created user</response>
+             <response code="400">If the user is null</response>
+        </member>
+        <member name="M:HouseRentApi.Fabrics.AbstractAdvertBuilderFactory.Create">
+            <summary>
+            Создает билдер для аренды либо продажи, на основе свойства OrderType в типе переданном в конструктор
+            </summary>
+            <returns>Возвращает билдер</returns>
+        </member>
+        <member name="M:HouseRentApi.Fabrics.AbstractAdvertBuilder.GetAdvert">
+            <summary>
+            Создает объявление 
+            </summary>
+            <returns>Возвращяет созданное объявление</returns>
+        </member>
+        <member name="T:HouseRentApi.Fabrics.AdvertBuilderFactory">
+            <summary>
+            Фабрика билдеров для модели объявлений DTO.
+            </summary>
+        </member>
+        <member name="M:HouseRentApi.Fabrics.AdvertBuilderFactory.#ctor(HouseRentApi.Models.DTO.IAdvertRequestDTO)">
+            <summary>
+             
+            </summary>
+            <param name="advertRequest">Интерфейс описывает модель объявления приходящее с front-end'a</param>
+        </member>
+        <member name="T:HouseRentApi.Fabrics.RentAdvertBuilder">
+            <summary>
+            Билдер для объявлений типа RentAdvert.
+            </summary>
+        </member>
+        <member name="T:HouseRentApi.Fabrics.SellAdvertBuilder">
+            <summary>
+            Билдер для объявлений типа SellAdvert.
+            </summary>
+        </member>
+        <member name="T:HouseRentApi.Models.DTO.ApartmentDTO">
+            <summary>
+            Класс описывающий апартаменты для DTO
+            </summary>
+        </member>
+        <member name="T:HouseRentApi.Models.DTO.GarageDTO">
+            <summary>
+            Класс описывающий гараж для DTO
+            </summary>
+        </member>
+        <member name="T:HouseRentApi.Models.DTO.HouseDTO">
+            <summary>
+            Класс описывающий дом для DTO
+            </summary>
+        </member>
+        <member name="T:HouseRentApi.Models.DTO.Request.RegistrationRequestDTO">
+            <summary>
+            Класс описывающий модель регистрации пользователя приходящая с front-end'a для DTO
+            </summary>
+        </member>
+        <member name="T:HouseRentApi.Models.DTO.Request.RentAdvertRequestDTO">
+            <summary>
+            Класс описывающий модель объявления аренды недвижимости приходящая с front-end'a для DTO.
+            Пользователь публикует ее с front-end'a.
+            </summary>
+        </member>
+        <member name="T:HouseRentApi.Models.DTO.Request.SellAdvertRequestDto">
+            <summary>
+            Класс описывающий модель объявления продажи недвижимости приходящая с front-end'a для DTO.
+            Пользователь публикует ее с front-end'a.
+            </summary>
+        </member>
+        <member name="T:HouseRentApi.Models.DTO.IAdvertRequestDTO">
+            <summary>
+            Интерфейс описывает модель объявления приходящее с front-end'a
+            </summary>
+        </member>
+        <member name="T:HouseRentApi.Models.DTO.RentAdvertDTO">
+            <summary>
+            Класс описывающий модель объявления аренды недвижимости для DTO
+            </summary>
+        </member>
+        <member name="T:HouseRentApi.Models.DTO.Response.RentShortAdvertResponseDTO">
+            <summary>
+            Класс описывающий модель объявления аренды недвижимости уходящщую во front-end для DTO.
+            Пользователь получет ее на стороне front-end'a.
+            </summary>
+        </member>
+        <member name="T:HouseRentApi.Models.IEntity">
+            <summary>
+            Представляет собой базовый интерфейс 
+            </summary>
+        </member>
+    </members>
+</doc>

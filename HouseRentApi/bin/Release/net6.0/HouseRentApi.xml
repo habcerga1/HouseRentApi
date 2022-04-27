@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HouseRentApi</name>
+    </assembly>
+    <members>
+        <member name="M:HouseRentApi.Controllers.RegistrationController.Post(HouseRentApi.Models.DTO.RegistrationDTO,System.Threading.CancellationToken)">
+             <summary>
+             Creates a new user.
+             </summary>
+             <param name="user">User model RegistrationDTO, Role types is Admin,Client,Agence,Owner</param>
+             <returns>A newly created new User</returns>
+             <remarks>
+             Sample request:
+            
+                 POST /Registration
+                 {
+                    "FirstName" : "Ivan",
+                    "LastName" : "Ivanow",
+                    "Email" : "client1@mail.com",
+                    "PhoneNumber" : "89138473891",
+                    "Password" : "5uckYou!",
+                    "Role" : "Client"
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created user</response>
+             <response code="400">If the user is null</response>
+        </member>
+        <member name="T:HouseRentApi.Models.IEntity">
+            <summary>
+            Представляет собой базовый интерфейс 
+            </summary>
+        </member>
+    </members>
+</doc>
